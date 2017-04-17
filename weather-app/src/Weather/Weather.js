@@ -107,8 +107,6 @@ class Weather extends React.Component {
 
   setIcon(){
     let i = this.state.id;
-    console.log("i: ",i);
-console.log("ID: ",this.state.id);
 
     if(i===1){
       this.setState({icon:<div>IMAGE UNAVAILABLE</div>})
